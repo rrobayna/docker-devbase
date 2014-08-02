@@ -1,4 +1,4 @@
-caiman/devbase - base level development container
+docker-devbase
 ==
 
 Linux development container for working with volumes in a structured docker
