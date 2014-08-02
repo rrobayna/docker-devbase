@@ -1,21 +1,25 @@
-caiman/devbase 
+caiman/devbase - base level development container
 ==
 
-*Base level development container*
-
-This container includes git, vim and tmux with configuration files, plugins and dotfiles.
+Linux development container for working with volumes in a structured docker
+development environment.  This container includes git, vim, tmux, plugins and
+config files.
 
 ## Usage
 
+Extend this development container and link to your environment's shared volumes.
+
+## Building
+
 The container is configured to use the *make* build too.
 
-To build the docker image just run make.
-```
+To build the docker image:
+```bash
 make
 ```
 
-After the image has been compiled, generate a container: 
-```
+To generate a container:
+```bash
 make run
 ```
 
