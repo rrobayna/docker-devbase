@@ -1,9 +1,9 @@
 imageName = caiman/devbase:latest
 containerName = devbase
 
-all: dbuild 
+all: dbuild
 
-dbuild: 
+dbuild:
 	docker build --rm -t $(imageName) .
 
 buildclean:
