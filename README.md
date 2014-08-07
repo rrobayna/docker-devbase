@@ -11,8 +11,6 @@ Extend this development container and link to your environment's shared volumes.
 
 ## Building
 
-The container is configured to use the *make* build too.
-
 To build the docker image:
 ```bash
 make
