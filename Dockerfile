@@ -4,7 +4,7 @@ MAINTAINER Rafael Robayna <rrobayna@gmail.com>
 # Update and install packages
 ENV DEBIAN_FRONTEND noninteractive
 RUN apt-get update
-RUN apt-get install -y sudo vim tmux git wget exuberant-ctags
+RUN apt-get install -y sudo vim-nox tmux git wget exuberant-ctags
 
 # Create user dev
 RUN useradd dev
